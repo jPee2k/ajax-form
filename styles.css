@@ -1,0 +1,23 @@
+.ajax-form .container label {
+  display: block;
+}
+
+.ajax-form .container {
+  padding: 10px 0;
+}
+
+.ajax-form .container input,
+.ajax-form .container textarea {
+  min-width: 300px;
+
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.ajax-form .container .error {
+  color: red;
+}
+
+.ajax-form .container .error_field input {
+  border: 1px solid red;
+}
